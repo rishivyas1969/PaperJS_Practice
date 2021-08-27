@@ -1,0 +1,58 @@
+body {
+    background-color: #5d8896;
+    background-image: linear-gradient(
+        to right,
+        rgba(6, 25, 136, 0.521),
+        rgba(170, 213, 216, 0.548)
+      ),
+      url('https://www.apple.com/newsroom/images/passions/business/Apple-announces-entrepreneur-camp-program-to-empower-women-on-computer-11262018_inline.jpg.large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+  p {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+  
+  p {
+    margin-top: -1%;
+    margin-bottom: 2rem;
+  }
+  
+  .container {
+    background-color: darkslateblue;
+    opacity: 0.9;
+    width: 95%;
+    margin: 0 auto;
+    padding: 3%;
+  }
+  .input {
+    width: 100%;
+  }
+  button {
+    display: block;
+    background-color: rgb(34, 172, 53);
+    width: 100%;
+    color: white;
+    padding: 1%;
+    border-radius: 2px;
+    cursor: pointer;
+    color: inherit;
+    border: 0;
+  }
+  
+  @media only screen and (min-width: 800px ) {
+    .container {
+       max-width: 50%;
+    }
+  }

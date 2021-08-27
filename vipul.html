@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FCC: Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form class="container" id="survey-form" action="">
+      <label for="name-label">Name</label><br />
+      <input
+        type="text"
+        name=""
+        id="name name-label"
+        class="input"
+        placeholder="Enter your name"
+        required
+      /><br /><br />
+
+      <label for="email-label">Email</label><br />
+      <input
+        type="email"
+        name=""
+        id="email email-label"
+        class="input"
+        placeholder="Enter your Email"
+        required
+      /><br /><br />
+
+      <label for="number-label">Age (optional) </label><br />
+      <input
+        type="number"
+        min="1"
+        max="18"
+        name=""
+        id="number number-label"
+        class="input"
+        placeholder="Age"
+      /><br /><br />
+
+      <label for="dropdown"
+        >Which option best describes your current role?</label
+      ><br />
+      <select class="input" id="dropdown" name="">
+        <option value="" selected disabled>Select current role</option>
+        <option value="">Student</option>
+        <option value="">Full Time Job</option>
+        <option value="">Full Time Learner</option>
+        <option value="">Prefer not to say</option>
+        <option value="">Other</option> </select
+      ><br /><br />
+      <label for="">Would you recommend freeCodeCamp to a friend?</label><br />
+      <input type="radio" name="rec" value="" /> Definitely<br />
+      <input type="radio" name="rec" value="" /> Maybe<br />
+      <input type="radio" name="rec" value="" /> Not sure <br />
+      <br />
+
+      <label for="dropdown"
+        >What is your favorite feature of freeCodeCamp?</label
+      ><br />
+      <select class="input" id="dropdown" name="">
+        <option value="" selected disabled>Select an option</option>
+        <option value="">Challenges</option>
+        <option value="">Projects</option>
+        <option value="">Community</option>
+        <option value="">Open Source</option>
+      </select>
+      <br /><br />
+
+      <label for=""
+        >What would you like to see improved? (Check all that apply)</label
+      ><br />
+      <input type="checkbox" id="" name="" value="front" />
+      <label for="">Front-end Projects</label><br />
+      <input type="checkbox" id="" name="" value="back" />
+      <label for="">Back-end Projects</label><br />
+      <input type="checkbox" id="" name="" value="data" />
+      <label for="">Data Visualization</label><br />
+      <input type="checkbox" id="" name="" value="challenges" />
+      <label for="">Challenges</label><br />
+      <input type="checkbox" id="" name="" value="open" />
+      <label for="">Open Source Community</label><br />
+      <input type="checkbox" id="" name="" value="gitter" />
+      <label for="">Gitter help rooms</label><br />
+      <input type="checkbox" id="" name="" value="video" />
+      <label for="">Videos</label><br />
+      <input type="checkbox" id="" name="" value="city" />
+      <label for="">City Meetups</label><br />
+      <input type="checkbox" id="" name="" value="wiki" />
+      <label for="">Wiki</label><br />
+      <input type="checkbox" id="" name="" value="forum" />
+      <label for="">Forum</label><br />
+      <input type="checkbox" id="" name="" value="add" />
+      <label for="">Additional Courses</label><br /><br />
+
+      <label for="">Any comments or suggestions?</label>
+      <br />
+      <textarea
+        id=""
+        class="input"
+        cols="50"
+        placeholder="Enter your comment here..."
+      ></textarea
+      ><br /><br />
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
